@@ -1,4 +1,7 @@
 <template>
+<div class="header">
+  <h1>Saiphirun prommijit</h1>
+</div>
   <div id="flashMessage" v-if="GStore.flashMessage">
     {{ GStore.flashMessage }}
   </div>
@@ -51,5 +54,10 @@ export default {
 }
 h4 {
   font-size: 20px;
+}
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
 }
 </style>
